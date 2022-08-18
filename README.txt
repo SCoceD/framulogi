@@ -41,3 +41,4 @@
     
 // Delete photo query param photo_id. User must be authorized.
     // DELETE https://splastun2.node.shpp.me/api/photo/<photo_id>
+

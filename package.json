@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-upload-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.54.0",
+    "aws-sdk": "^2.1093.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "image-thumbnail": "^1.0.15",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.4",
+    "otp-generator": "^4.0.0",
+    "pg": "^8.7.3",
+    "simple-thumbnail": "^1.6.5",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "config": "^3.3.7",
+    "nodemon": "^2.0.15"
+  }
+}
